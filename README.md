@@ -1,3 +1,14 @@
+> **Public repository status:** This public repository currently contains documentation only. The sanitized workbook, VBA source, sample workbooks, and screenshots are intentionally not included. The implementation details below are based on a read-only review of a separate workbook snapshot; they are not a runnable artifact from this repository.
+
+The current public contents are:
+
+- `README.md`: project overview, workflow, requirements, risks, and publication guidance.
+- `APPLICATION_ANALYSIS.md`: read-only analysis of the separately reviewed workbook.
+- `.gitignore`: exclusions for operational Excel files, exports, logs, screenshots, and unreviewed VBA artifacts.
+
+Do not interpret the feature descriptions below as proof that this GitHub repository can execute the workflow. A future demonstration should use only an approved sanitized workbook, synthetic data, or a separately published reviewed source package.
+
+
 # Production Order Automation for SAP (Excel VBA)
 
 An Excel VBA automation application that prepares production-order data, compares Excel material requirements with SAP COR3 component data, supports COR6 goods-movement entry, and records processing results in structured Excel tables.

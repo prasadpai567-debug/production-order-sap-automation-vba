@@ -1,3 +1,4 @@
+
 # Operational Excel and SAP artifacts
 *.xlsm
 *.xlsx
@@ -11,3 +12,10 @@
 # Sensitive screenshots
 docs/screenshots/*
 !docs/screenshots/README.md
+
+# Unreviewed VBA exports and macro project files
+*.bas
+*.cls
+*.frm
+vbaProject.bin
+*.zip

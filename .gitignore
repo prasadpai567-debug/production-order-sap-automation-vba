@@ -1,0 +1,13 @@
+# Operational Excel and SAP artifacts
+*.xlsm
+*.xlsx
+*.xlsb
+*.csv
+*.log
+
+# Local exports and temporary files
+*.tmp
+
+# Sensitive screenshots
+docs/screenshots/*
+!docs/screenshots/README.md
